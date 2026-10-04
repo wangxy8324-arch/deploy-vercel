@@ -17,10 +17,10 @@ const protoLoader = require('@grpc/proto-loader');
 const { WebSocket, createWebSocketStream } = require('ws');
 
 // ========================== 环境变量配置 ==========================
-const UUID = process.env.UUID || '8dca28b9-c048-48c0-8cb5-fb9bc0f350f6';
+const UUID = process.env.UUID || 'f9e7e80f-a09b-4c3e-997c-baa974556e19';
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';
 const NEZHA_KEY = process.env.NEZHA_KEY || '';             
-const DOMAIN = process.env.DOMAIN || 'vercel-two-orcin.vercel.app';    
+const DOMAIN = process.env.DOMAIN || 'your-domain.com';    
 const AUTO_ACCESS = process.env.AUTO_ACCESS || false;      
 const SUB_PATH = process.env.SUB_PATH || 'vercel';           
 const NAME = process.env.NAME || 'Vercel';                       
